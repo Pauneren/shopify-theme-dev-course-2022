@@ -15,39 +15,5 @@
   </a>
 </div>
 
-{% schema %}
-  { 
-    "name": "Hero",
-    "block": [
-      {
-        "type": "collection",
-        "limit":3,
-        "name": "Collection",
-        "settings": [
-         {
-          "type": "Collection",
-          "id": "collection",
-          "label": "Collection"
-         },
-         {
-          "type": "image_picker",
-          "id": "image_bg",
-          "label": "Image Background"
-         },
-         {
-          "type": "image_picker",
-          "id": "image_hover",
-          "label": "Image Hover"
-         },
-        ]
-
-      }
-    ],
-    "presets": [
-        { 
-          "name": "Hero"
-       }
-     ]
-  }
-
-{% endschema %}
+{% schema %} { "name": "Hero", "presets": [ { "name": "Hero" } ] } {% endschema
+%}
