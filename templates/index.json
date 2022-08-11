@@ -2,6 +2,33 @@
   "sections": {
     "1660222565a085ea82": {
       "type": "hero",
+      "blocks": {
+        "b343a5ef-3b07-46ef-9d76-a49d7dea7a45": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
+          }
+        },
+        "744e3736-ace1-4523-bb62-21c75973653f": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8ff7d925-6009-442a-b666-6f3a51fa4595": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "b343a5ef-3b07-46ef-9d76-a49d7dea7a45",
+        "744e3736-ace1-4523-bb62-21c75973653f",
+        "8ff7d925-6009-442a-b666-6f3a51fa4595"
+      ],
       "settings": {
       }
     }
