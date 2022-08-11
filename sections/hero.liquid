@@ -15,39 +15,34 @@
   </a>
 </div>
 
+
+
 {% schema %}
-  { 
-    "name": "Hero",
-    "block": [
-      {
-        "type": "collection",
-        "limit":3,
-        "name": "Collection",
-        "settings": [
-         {
-          "type": "Collection",
+{
+  "name": "Hero",
+  "blocks": [
+    {
+      "name": "Collection",
+      "type": "collection",
+      "limit": 3,      
+      "settings": [
+        {
+          "type": "collection",
           "id": "collection",
           "label": "Collection"
-         },
-         {
+        },
+        {
           "type": "image_picker",
-          "id": "image_bg",
-          "label": "Image Background"
-         },
-         {
+          "id": "collection",
+          "label": "Image backgound"
+        },
+        {
           "type": "image_picker",
           "id": "image_hover",
-          "label": "Image Hover"
-         },
-        ]
-
-      }
-    ],
-    "presets": [
-        { 
-          "name": "Hero"
-       }
+          "label": "Image hover"
+        },
      ]
-  }
-
+    }
+  ]
+}
 {% endschema %}
