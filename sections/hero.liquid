@@ -8,21 +8,23 @@
 </div>
 
 <div>
+  {% for block in section.blocks %}
   <a href="">
     <div></div>
     <div></div>
-    <h3></h3>
+    <h3>{{ block.settings.collection.title }}</h3>
   </a>
 </div>
+{% endfor %}
 
 {% schema %}
 {
   "name": "Hero",
   "blocks": [
     {
-      "name": "Collection",
       "type": "collection",
       "limit": 3,
+      "name": "Collection",
       "settings": [
         {
           "type": "collection",
