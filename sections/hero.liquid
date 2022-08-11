@@ -15,8 +15,6 @@
   </a>
 </div>
 
-
-
 {% schema %}
 {
   "name": "Hero",
@@ -24,7 +22,7 @@
     {
       "name": "Collection",
       "type": "collection",
-      "limit": 3,      
+      "limit": 3,
       "settings": [
         {
           "type": "collection",
@@ -33,15 +31,20 @@
         },
         {
           "type": "image_picker",
-          "id": "collection",
-          "label": "Image backgound"
+          "id": "image_bg",
+          "label": "Image background"
         },
         {
           "type": "image_picker",
           "id": "image_hover",
-          "label": "Image hover"
-        },
-     ]
+          "label": "Image Hover"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
     }
   ]
 }
