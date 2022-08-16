@@ -1,5 +1,7 @@
 
 
+
+
 .weekly-picks {
   margin: 50px 0 120px;
 }
@@ -14,6 +16,7 @@
 .weekly-picks__product-ctn {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
 }
 @media screen and (min-width: 768px) {
   .weekly-picks__product-ctn {
