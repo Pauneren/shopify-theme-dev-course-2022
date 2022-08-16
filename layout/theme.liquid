@@ -213,16 +213,15 @@
         body {
           font-size: 1.6rem;
         }
-      }
-      .bubble--sale {
-        background-image: url({{ bubble-sale.svg | assets_url }})
-      }
-      .bubble--new {
-        background-image: url({{ bubble-new.svg | assets_url }})
-      }
-      .bubble--face {
-        background-image: url({{ bubble-fave.svg | assets_url }})
-      }
+        .bubble--sale {
+          background-image: url({{ 'bubble-sale.svg' | asset_url }})
+        }
+        .bubble--new {
+          background-image: url({{ 'bubble-new.svg' | asset_url }})
+        }
+        .bubble--fave {
+          background-image: url({{ 'bubble-fave.svg' | asset_url }})
+        }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
