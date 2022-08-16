@@ -214,6 +214,15 @@
           font-size: 1.6rem;
         }
       }
+      .bubble--sale {
+        background-image: url({{ bubble-sale.svg | assets_url }})
+      }
+      .bubble--new {
+        background-image: url({{ bubble-new.svg | assets_url }})
+      }
+      .bubble--face {
+        background-image: url({{ bubble-fave.svg | assets_url }})
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}

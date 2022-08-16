@@ -3016,3 +3016,22 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+.product-bubble{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 95px;
+  width: 90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+.product-bubble > span {
+  position: absolute;
+  font-size: 15px;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,  -50%);
+}
