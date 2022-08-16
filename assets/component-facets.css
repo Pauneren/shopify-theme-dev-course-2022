@@ -183,6 +183,8 @@
   grid-row: 1;
   display: flex;
   flex-wrap: wrap;
+  background-color: #fff;
+  padding-left: 20px;
 }
 
 .facets__heading {
@@ -951,6 +953,13 @@ input.mobile-facets__checkbox {
 
 .product-count__text.loading + .loading-overlay__spinner {
   display: block;
+}
+
+.facets__form {
+  display: grid;
+  gap: 0 0.3;
+  grid-template-columns: max-content max-content 1fr ;
+  margin-bottom: 01.5rem;
 }
 
 @media screen and (min-width: 750px) {

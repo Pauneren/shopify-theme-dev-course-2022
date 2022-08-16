@@ -1,3 +1,28 @@
+.collection-grid-section{
+  margin-top: 10rem;
+  position: relative;
+}
+
+.collection-grid-section:before {
+  content: "";
+  position: absolute;
+  background-color: rgb(var(--oolor-foreground));
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 10px;
+  z-index: -1;
+}
+
+.collection-filters__item{
+  align-items: flex-start;
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+  padding: 0 10px;
+  background-color: white;
+}
+
 @media screen and (max-width: 749px) {
   .collection .grid__item:only-child {
     flex: 0 0 100%;
@@ -78,3 +103,5 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+
