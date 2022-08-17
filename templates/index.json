@@ -41,10 +41,17 @@
       "settings": {
         "collection": "beach"
       }
+    },
+    "1660735930342440d9": {
+      "type": "collecion-grid",
+      "settings": {
+        "header": ""
+      }
     }
   },
   "order": [
     "1660222565a085ea82",
-    "1660654317c75b99ce"
+    "1660654317c75b99ce",
+    "1660735930342440d9"
   ]
 }
