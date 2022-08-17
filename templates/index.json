@@ -44,6 +44,38 @@
     },
     "1660735930342440d9": {
       "type": "collecion-grid",
+      "blocks": {
+        "badd168c-c221-4cdf-806f-6499dc29f32d": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "db1e4ddc-ab92-499e-ac2c-fa71f9fb530d": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "a55270bd-3925-4e5e-87b7-008982fd935e": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "109061a2-be54-4430-811f-e7ba4c760fa8": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach"
+          }
+        }
+      },
+      "block_order": [
+        "badd168c-c221-4cdf-806f-6499dc29f32d",
+        "db1e4ddc-ab92-499e-ac2c-fa71f9fb530d",
+        "a55270bd-3925-4e5e-87b7-008982fd935e",
+        "109061a2-be54-4430-811f-e7ba4c760fa8"
+      ],
       "settings": {
         "header": ""
       }
