@@ -58,7 +58,11 @@
 }
 
 .card-information {
-  text-align: var(--text-alignment);
+  display: block;
+  padding-right: 1.2rem;
+  text-align: center;
+  font-size: 17px;
+  font-family: var(--font-body-family)
 }
 
 .card__media,

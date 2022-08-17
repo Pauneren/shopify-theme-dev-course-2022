@@ -40,6 +40,11 @@
     background-color: #FBF9F9;
     text-decoration: none;
   }
+
+  .collection-grid__grid-item:hover {
+    background-color: rgba(14, 14, 14, 0.7);
+  }
+
   @media screen and (min-width: 1024px) {
     .collection-grid__grid-item {
       height: 500px;
