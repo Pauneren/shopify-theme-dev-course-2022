@@ -26,12 +26,6 @@
             "picker_type": "button"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -85,7 +79,6 @@
         "caption",
         "price",
         "variant_picker",
-        "buy_buttons",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
